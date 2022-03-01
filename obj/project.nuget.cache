@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cPeHbSSOwcPNXiRaowTW0O8YTtteSymypNO350KYXUbT8bmeCQ6g1vHDFiIJcMayaCZ4htouKAEeSAGZisHonw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ki\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\MoarStuf\\MoarStuf.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ki\\.nuget\\packages\\tmodloader.codeassist\\0.1.3\\tmodloader.codeassist.0.1.3.nupkg.sha512"
+  ],
+  "logs": []
+}
