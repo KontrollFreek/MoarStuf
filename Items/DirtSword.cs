@@ -20,9 +20,8 @@ namespace MoarStuf.Items
 			item.useTime = 15;
 			item.useAnimation = 15;
 			item.useStyle = ItemUseStyleID.SwingThrow;
-			item.knockBack = 10;
+			item.knockBack = 5;
 			item.value = 10;
-			item.rare = ItemRarityID.White;
 			item.UseSound = SoundID.Item7;
 			item.autoReuse = true;
 			item.useTurn = true;
@@ -32,7 +31,6 @@ namespace MoarStuf.Items
 		{
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.DirtBlock, 20);
-			recipe.AddTile(TileID.WorkBenches);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
 		}

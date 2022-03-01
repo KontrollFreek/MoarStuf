@@ -13,17 +13,15 @@ namespace MoarStuf.Items
 
 		public override void SetDefaults() 
 		{
-			item.damage = 4;
+			item.damage = 3;
 			item.pick = 10;
-			item.melee = true;
 			item.width = 32;
 			item.height = 32;
 			item.useTime = 15;
 			item.useAnimation = 15;
 			item.useStyle = ItemUseStyleID.SwingThrow;
-			item.knockBack = 5;
+			item.knockBack = 3;
 			item.value = 10;
-			item.rare = ItemRarityID.White;
 			item.UseSound = SoundID.Item7;
 			item.autoReuse = true;
 			item.useTurn = true;
@@ -33,7 +31,6 @@ namespace MoarStuf.Items
 		{
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.DirtBlock, 20);
-			recipe.AddTile(TileID.WorkBenches);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
 		}
