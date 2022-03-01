@@ -3,24 +3,25 @@ using Terraria.ModLoader;
 
 namespace MoarStuf.Items
 {
-	public class DirtSword : ModItem
+	public class DirtPickaxe : ModItem
 	{
 		public override void SetStaticDefaults() 
 		{
-			// DisplayName.SetDefault("DirtSword"); // By default, capitalization in classnames will add spaces to the display name. You can customize the display name here by uncommenting this line.
-			Tooltip.SetDefault("A little squishy");
+			// DisplayName.SetDefault("DirtPickaxe"); // By default, capitalization in classnames will add spaces to the display name. You can customize the display name here by uncommenting this line.
+			Tooltip.SetDefault("Just the right amount of squishy");
 		}
 
 		public override void SetDefaults() 
 		{
-			item.damage = 6;
+			item.damage = 4;
+			item.pick = 10;
 			item.melee = true;
-			item.width = 36;
-			item.height = 36;
+			item.width = 32;
+			item.height = 32;
 			item.useTime = 15;
 			item.useAnimation = 15;
 			item.useStyle = ItemUseStyleID.SwingThrow;
-			item.knockBack = 10;
+			item.knockBack = 5;
 			item.value = 10;
 			item.rare = ItemRarityID.White;
 			item.UseSound = SoundID.Item7;
